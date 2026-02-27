@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/testegithub/public_html/
+    - /bin/cp -R images $DEPLOYPATH
